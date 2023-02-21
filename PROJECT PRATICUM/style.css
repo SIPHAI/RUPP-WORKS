@@ -43,3 +43,11 @@ body {
     background-color: #424669;
     border: none;
   }
+  .rupp{
+    border: orangered solid 4px;
+    border-radius: 1.5em;
+    width: 600px;
+    height: 650px;
+    color:#fff;
+   
+  }
