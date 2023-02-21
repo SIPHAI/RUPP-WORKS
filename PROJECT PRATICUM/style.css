@@ -38,25 +38,35 @@ body {
     margin-top: 200px;
     justify-content: center;
   }
+  .input-group-append{
+    background-color: orange;
+  }
   .register {
     color: #fff;
     background-color: #424669;
     border: none;
   }
   .rupp{
+    background-color: #fff;
     padding: 2rem;
     margin-right: 100px;
-    border: rgb(242, 78, 19) solid 4px;
+    border: rgb(242, 78, 19) solid 13px;
     border-radius: .7em;
     width: 600px;
     height: 650px;
-    color:#fff;
+    color:#393939;
   }
 
   .AboutRupp{
     display: flex;
     justify-content: flex-end;
   }
+  .AboutRupp1{
+    display: flex;
+    justify-content:center;
+  }
   h2{
-    text-align: center;
+ 
+    color:aliceblue;
+
   }
