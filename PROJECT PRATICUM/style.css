@@ -44,10 +44,13 @@ body {
     border: none;
   }
   .rupp{
-    border: orangered solid 4px;
-    border-radius: 1.5em;
+    border: rgb(242, 78, 19) solid 4px;
+    border-radius: .7em;
     width: 600px;
     height: 650px;
     color:#fff;
    
+  }
+  h2{
+    text-align: center;
   }
