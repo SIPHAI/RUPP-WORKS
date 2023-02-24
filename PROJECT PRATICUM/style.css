@@ -70,14 +70,13 @@ body {
     margin-left: 55%;
   }
   .rupp1{
-    /* margin-top: 20px; */
     display:inline;
    
   }
   .button{
-    /* margin-top: 20px; */
+    border: 4px solid orangered;
+    border-radius: .5em;
     display: inline;
-    border-radius: 14px solid orange;
     height: 60px;
     width: 150px;
     margin-left: 55%;
@@ -91,7 +90,6 @@ body {
   .img{
     margin: 0;
     padding: 15px;
-    /* display: flex; */
     align-items: center;
     width: 530px;
     height: auto;
