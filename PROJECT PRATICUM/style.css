@@ -113,12 +113,13 @@ body {
   .rupp1 .img{
     position:relative !important;
   }
-
+        
   .line{
+    background-color: orangered;
     color:orangered
   }
   .programs{
     color:#fff;
     display: inline;
-    text-align: end;
+    text-align: end         ;
   }
