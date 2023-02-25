@@ -1,125 +1,138 @@
-*{
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #2d3250;
-    font-family: Raleway, sans;
-  }
+  background-color: #2d3250;
+  font-family: Raleway, sans;
+}
 .logo {
-    width: 100px;
-  }
-  .navbar-nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-  }
-  .navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 4;
-  }
-  
-  .navbar.collapse {
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 56px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: #fff;
-    overflow-y: auto;
-    transition: 2s ease-in-out;
-  }
-  .nav-item {
-    display: inline-block;
-    padding: 0 15px;
-  }
-  .search-bar {
-    margin-top: 200px;
-    justify-content: center;
-  }
-  .input-group-append{
-    background-color: orange;
-  }
-  .register {
-    color: #fff;
-    background-color: #424669;
-    border: none;
-  }
-  .rupp{
-    background-color: #fff;
-    padding: 2rem;
-    margin-right: 5px;
-    border: rgb(242, 78, 19) solid 13px;
-    border-radius: .7em;
-    width: 600px;
-    height: auto;
-    color:#393939;
-  }
+  width: 100px;
+}
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 4;
+}
 
-  .AboutRupp1{
-    display: flex;
-    justify-content:center;
-  }
-  .rupp{
-    margin-left: 55%;
-  }
-  .button{
-    margin-top: 5px;
-    border: 4px solid orangered;
-    border-radius: .5em;
-    /* display: inline; */
-    height: 60px;
-    width: 400px;
-  }
-  .heading2{
- 
-    color:aliceblue;
-    margin-left: 50%;
-  }
+.navbar.collapse {
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 56px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  overflow-y: auto;
+  transition: 2s ease-in-out;
+}
+.nav-item {
+  display: inline-block;
+  padding: 0 15px;
+}
+.search-bar {
+  margin-top: 200px;
+  justify-content: center;
+}
+.input-group-append {
+  background-color: orange;
+}
+.register {
+  color: #fff;
+  background-color: #424669;
+  border: none;
+}
+.rupp {
+  background-color: #fff;
+  padding: 2rem;
+  margin-right: 5px;
+  border: rgb(242, 78, 19) solid 13px;
+  border-radius: 0.7em;
+  width: 600px;
+  height: auto;
+  color: #393939;
+}
 
-  .img{
-    margin: 0;
-    padding: 15px;
-    align-items: center;
-    width: 530px;
-    height: auto;
+.AboutRupp1 {
+  display: flex;
+  justify-content: center;
+}
+.rupp {
+  margin-left: 55%;
+}
+.button {
+  margin-top: 5px;
+  border: 4px solid orangered;
+  border-radius: 0.5em;
+  /* display: inline; */
+  height: 60px;
+  width: 400px;
+}
+.heading2 {
+  color: aliceblue;
+  margin-left: 50%;
+}
 
-  }
+.img {
+  margin: 0;
+  padding: 15px;
+  align-items: center;
+  width: 530px;
+  height: auto;
+}
 
-
-  .more{
-    width: 20px;
-    height: 20px;
-  }
-  .rupp1{
-    display: flex;
-    width: 600px;
-    margin-top: 30px;
+.more {
+  width: 20px;
+  height: 20px;
+}
+.rupp1 {
+  display: flex;
+  width: 600px;
+  margin-top: 30px;
   justify-content: space-between;
-    /* background-color: aliceblue; */
-    margin-left: 55%;
-  }
-  .rupp1 .button{
-    display: inline;
-    width: 45%;
-    font-size: larger;
-  }
-  .rupp1 .img{
-    position:relative !important;
-  }
-        
-  .line{
-    background-color: orangered;
-    color:orangered
-  }
-  .programs{
-    color:#fff;
-    display: inline;
-    text-align: end         ;
-  }
+  /* background-color: aliceblue; */
+  margin-left: 55%;
+}
+.rupp1 .button {
+  display: inline;
+  width: 45%;
+  font-size: larger;
+}
+.rupp1 .img {
+  position: relative !important;
+}
+
+.line {
+  background-color: orangered;
+  color: orangered;
+}
+.h4 {
+  color: #fff;
+  margin-top: 20px;
+  margin-left: 50%;
+}
+.programs {
+  color: #fff;
+  display: inline;
+  text-align: end;
+}
+.line {
+  margin-left: 50%;
+  width: 50%;
+  height: 2px;
+  background-color: orangered;
+}
+#fields {
+  margin-right: 100px;
+  list-style: none;
+}
