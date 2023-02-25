@@ -114,6 +114,11 @@ body {
     position:relative !important;
   }
 
-  .programm{
+  .line{
+    color:orangered
+  }
+  .programs{
     color:#fff;
+    display: inline;
+    text-align: end;
   }
