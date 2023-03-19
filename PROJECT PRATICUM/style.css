@@ -137,11 +137,12 @@ body {
   list-style: none;
 }
 .bottom{
- border: .1em solid black;
  width: 600px;
  height: 250px;
  padding: auto;
  margin: auto;
+ border: .1em solid black;
+ border-radius: 35px;
 }
 .btn-1{
   background-color: pink;
