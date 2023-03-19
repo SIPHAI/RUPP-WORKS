@@ -137,9 +137,17 @@ body {
   list-style: none;
 }
 .bottom{
-  border: .1em solid black;
+ border: .1em solid black;
  width: 500px;
  height: 150px;
  padding: auto;
- 
+ margin: auto;
+}
+.btn-1{
+  background-color: pink;
+}
+
+.btn-2{
+  margin-top: 30px;
+  background-color: rgb(83, 101, 230);
 }
