@@ -124,7 +124,8 @@ body {
 .programs {
   color: #fff;
   display: inline;
-  text-align: end;
+  text-align: start;
+  margin-left: 50%;
 }
 .line {
   margin-left: 50%;
@@ -144,7 +145,7 @@ body {
  border: .1em solid black;
  border-radius: 35px;
 }
-.btn{
+.btns{
   display: inline;
   width: 500px;
   height: 20px;
