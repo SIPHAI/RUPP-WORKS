@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Cute Image</title>
+    <!--Bootstrap Styles-->
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static',  filename='bootstrap5/css/bootstrap.min.css')}}"
+    />
+  </head>
+  <body>
+    <div class="card">
+      <div class="card-body">
+        <img src="/static/img/Cat.jpg" class="mx-auto d-block" />
+        <img src="/static/img/Cat.jpg" class="float-start" />
+        <img src="/static/img/Cat.jpg" class="float-end" />
+      </div>
+    </div>
+  </body>
+</html>
